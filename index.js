@@ -9,7 +9,7 @@ const s5 = "and";
 
 // Concatenate the string variables into one new string
 
-const tongueTwister = `"${s1} ${s2} ${s3} ${s4} ${s5} ${s3} ${s2} ${s1} ${s4}"`
+const tongueTwister = `${s1} ${s2} ${s3} ${s4} ${s5} ${s3} ${s2} ${s1} ${s4}`
 
 // Print out the concatenated string
 
@@ -26,11 +26,11 @@ const part2 = "script";
 
 const parT1 = part1.slice(0, -1) + part1.slice(-1).toUpperCase();
 const parT2 = part2.slice(0, -1) + part2.slice(-1).toUpperCase();
-const combineD = `"${parT1}${parT2}"`
+const combined = `"${parT1}${parT2}"`
 
 // Print the cameLtaiL-formatted string
 
-console.log(combineD)
+console.log(combined)
 
 /*******************************************
     Iteration 2.1 | Calculate Tip
@@ -39,7 +39,7 @@ const billTotal = 84;
 
 // Calculate the tip (15% of the bill total)
 
-const tipAmount = billTotal *.15
+const tipAmount = billTotal * .15
 
 // Print out the tipAmount
 console.log(tipAmount)
